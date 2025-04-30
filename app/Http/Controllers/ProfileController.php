@@ -8,6 +8,6 @@ class ProfileController extends Controller
 {
     public function index()
     {
-        return view('profile'); // Akan memanggil view profile.blade.php
+        return view('profile');
     }
 }

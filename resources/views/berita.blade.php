@@ -242,30 +242,162 @@
     <main>
         <div class="main-hero-wrapper">
             <div class="container">
+                <div class="sec-title with-seperator centered">
+                    <h2>Berita Selatan</h2>
+                    <div class="separator">
+                        ::before
+                        <span class="cir c-1"></span>
+                        <span class="cir c-2"></span>
+                        <span class="cir c-3"></span>
+                        ::after
+                    </div>
+                    <div class="lower-text">koata Administrasi Jakarta Selatan</div>
+                </div>
                 <div class="hero-section text-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504271252_UNTUK_BERITA_20250427_125040_0000.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">154 Anak Yatim dan Duafa Terima Santunan di Hajatan Jagakarsa</p>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504301110_UNTUK_BERITA__53_.jpg"
+                                    class="card-img-top" alt="gambar">
+                                <div class="card-body">
+                                    <h5 class="card-title">PEMERINTAHAN</h5>
+                                    <li class="nav-item">
+                                        <a class="nav-link @if(Request::is('profil*')) active @endif"
+                                            href="{{ route('profile') }}">Walikota Jaksel Buka Konferensi PGRI</a>
+                                    </li>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Rabu, 30 April 2025</small>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" i class="bi bi-folder"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16">
-                                    <path
-                                        d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a2 2 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139q.323-.119.684-.12h5.396z" />
-                                </svg></i></li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504291647_UNTUK_BERITA__52_.jpg"
+                                    class="card-img-top" alt="gambar">
+                                <div class="card-body">
+                                    <h5 class="card-title">PEMERINTAHAN</h5>
+                                    <p class="card-text">Plt Wakil Walikota Jaksel Hadiri Halal Bihalal FLO DKI
+                                        Jakarta
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Selasa, 29 April 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504291400_UNTUK_BERITA__51_.jpg"
+                                    class="card-img-top" alt="gambar">
+                                <div class="card-body">
+                                    <h5 class="card-title">KESEJAHTERAAN RAKYAT</h5>
+                                    <p class="card-text">Tingkatkan Pelayanan Kesehatan, Sudinkes Jaksel Luncurkan
+                                        “Pasukan Putih”
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Selasa, 29 April 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-section text-center">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504291341_UNTUK_BERITA__50_.jpg"
+                                    class="card-img-top" alt="gambar">
+                                <div class="card-body">
+                                    <h5 class="card-title">PEMERINTAHAN</h5>
+                                    <p class="card-text">40 Perusahaan Buka Ribuan Lowongan Kerja di Jakarta Job
+                                        Fair.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Selasa, 29 April 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504291315_UNTUK_BERITA__49_.jpg"
+                                    class="card-img-top" alt="gambar">
+                                <div class="card-body">
+                                    <h5 class="card-title">PEMERINTAHAN</h5>
+                                    <p class="card-text">Puluhan HPR di Kelurahan Guntur Divaksinasi Rabies
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Selasa, 29 April 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504291052_UNTUK_BERITA__48_.jpg"
+                                    class="card-img-top" alt="gambar">
+                                <div class="card-body">
+                                    <h5 class="card-title">PEMERINTAHAN</h5>
+                                    <p class="card-text">Walikota Serahkan Puluhan SK Pensiun PNS di Lingkungan Kota
+                                        Jaksel”
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Selasa, 29 April 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504281433_UNTUK_BERITA_20250428_143224_0000.jpg"
+                                class="card-img-top" alt="gambar">
+                            <div class="card-body">
+                                <h5 class="card-title">PEMERINTAHAN</h5>
+                                <p class="card-text">Petugas Gabungan Tertibkan Parkir Liar di Jalan Kaimun.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Senin, 28 April 2025</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504281344_UNTUK_BERITA__46_.jpg"
+                                class="card-img-top" alt="gambar">
+                            <div class="card-body">
+                                <h5 class="card-title">PEMERINTAHAN</h5>
+                                <p class="card-text">Sudin PPKUKM Jaksel Fasilitasi UMKM Dapat Sertifikasi Halal
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Senin, 28 April 2025</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://selatan.jakarta.go.id/upload/thumbnail/202504281025_UNTUK_BERITA__44_.jpg"
+                                class="card-img-top" alt="gambar">
+                            <div class="card-body">
+                                <h5 class="card-title">PEMERINTAHAN</h5>
+                                <p class="card-text">Sudin Tamhut Jaksel Pangkas Pohon di Kuningan Timur”
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Senin, 28 April 2025</small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     </main>
 

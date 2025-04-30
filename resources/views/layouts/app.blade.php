@@ -41,6 +41,7 @@
             padding: 4rem 0;
         }
 
+
         .main-hero-wrapper::before {
             content: '';
             position: absolute;
@@ -273,19 +274,16 @@
                         <div class="carousel-item active">
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-md-4 text-center">
-                                    <img src="https://selatan.jakarta.go.id/modul/sudinsos/upload/visi_misi/202211041423-heru-budi-hartono.png"
+                                    <img src="https://selatan.jakarta.go.id/upload/visi_misi/202502201128-pramono-anung.png"
                                         class="img-fluid rounded-circle shadow mb-3" alt="Profil 1"
                                         style="width: 150px; height: 150px; object-fit: cover; border: 4px solid #009688;">
-                                    <h4 class="mt-2">Heru Budi Hartono</h4>
-                                    <p class="text-muted">Walikota Administrasi Jakarta Selatan</p>
+                                    <h4 class="mt-2">Pramono Agung</h4>
+                                    <p class="text-muted">Gubernur DKI Jakarta</p>
                                 </div>
                                 <div class="col-md-7 text-center">
                                     <div class="p-2">
-                                        <p class="lead" style="max-width: 600px; margin: 0 auto;">"Mari melangkah
-                                            bersama,
-                                            <u>
-                                                #terusbekerja</u> membangun dan memajukan Jakarta, kota tercinta kita
-                                            bersama."
+                                        <p class="lead" style="max-width: 600px; margin: 0 auto;">Gubernur DKI Jakarta
+                                            2025-2030
                                         <div class="text-center mt-3">
                                             <small class="text-muted">- Heru Budi Hartono</small>
                                         </div>
@@ -293,7 +291,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="carousel-item ">
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-md-4 text-center">

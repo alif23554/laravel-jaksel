@@ -6,7 +6,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\LayananController;
 
-Route::get('/', function () {
+Route::get('/app', function () {
     return view('app');
 });
 

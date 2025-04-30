@@ -9,6 +9,6 @@ class LayananController extends Controller
     //
     public function index()
     {
-        return view('layanan'); // Akan memanggil view profile.blade.php
+        return view('layanan');
     }
 }
